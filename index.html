@@ -10,30 +10,109 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-
   </head>
   <body>
-	<script src="script.js"></script>
 
+<!-- NAVBAR -->
   <nav class="nav-container">
-    <img class="logo" src="img/floorball.svg" alt="logo">
+    <img class="logo hvr" src="img/floorball.svg" alt="logo">
     <ul class="navlinks">
-      <li><a class="navlink" href="">START</a></li>
-      <li><a class="navlink" href="">EQUIPMENT</a></li>
-      <li><a class="navlink" href="">RULES</a></li>
+      <li class="hvr"><a class="navlink" href="start.html">START</a></li>
+      <li class="hvr"><a class="navlink" href="equipment.html">EQUIPMENT</a></li>
+      <li class="hvr"><a class="navlink" href="rules.html">RULES</a></li>
     </ul>
   </nav>
+
+<!-- HUVUDINNEHÅLLl -->
   <main class="index-container">
-    <a title="Rolandhino1, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SM-final_Innebandy_Damer_2018-117.jpg">
-      <img class="indeximg" alt="SM-final Innebandy Damer 2018-117" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/SM-final_Innebandy_Damer_2018-117.jpg/2048px-SM-final_Innebandy_Damer_2018-117.jpg">
-    </a>
-    <h1>FLOORBALL</h1>
-    <ul class="slogan">
-      <li>FAST</li>
-      <li>FUN</li>
-      <li>FOR EVERYONE</li>
-    </ul>
-    <h2 class="indexh2">THIS IS FLOORBALL</h2>
+
+    <div class="slideshow-container"> <!-- Bildspel från w3-schools -->
+      <div class="mySlides fade">
+        <img src="img/SM-final_Innebandy_Damer_2018-117.webp">
+        <div class="attribution slide-atr">Image Attribution: <!-- Länkar till bilderna från Wikimedia och deras licens, rekommendation från Wikimedia -->
+          <a href="https://commons.wikimedia.org/wiki/File:SM-final_Innebandy_Damer_2018-117.jpg">Rolandhino1</a>,
+          <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/Falun_vs_Insjön_Innebandy_HJ_18.webp">
+        <div class="attribution slide-atr">Image Attribution:
+          <a href="https://commons.wikimedia.org/wiki/File:Falun_vs_Insj%C3%B6n_Innebandy_HJ_18.jpg">Rolandhino1</a>,
+          <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/Wheelchair_Floorball_National_game_Sweden_vs_Czech_Republic_21.webp">
+        <div class="attribution slide-atr">Image Attribution:
+          <a href="https://commons.wikimedia.org/wiki/File:Wheelchair_Floorball_National_game_Sweden_vs_Czech_Republic_21.jpg">Rolandhino1</a>,
+          <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</div>
+      </div>
+    </div>
+
+    <!-- Rektangeln med slagord, över bildspelet -->
+    <div class="slogan-box">
+      <h1>FLOORBALL</h1>
+      <ul class="slogan">
+        <li>FAST</li>
+        <li>FUN</li>
+        <li>FOR EVERYONE</li>
+      </ul>
+    </div>
+
+    <h2 class="this-is-floorball-h2">THIS IS FLOORBALL</h2>
+    <p class="introduction">Text - tänkt att vara en intresseväckande introuduktion till sporten - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae hendrerit elit. Donec pharetra cursus bibendum. Quisque lobortis ipsum ex, et elementum urna tincidunt a. Donec semper ipsum a elit euismod rhoncus. Curabitur imperdiet eu mauris sit amet ornare. Phasellus pellentesque ultricies leo eu ultricies. Maecenas eu lectus a sapien maximus pulvinar. Curabitur consectetur, orci vitae
+      consectetur pellentesque, sapien orci efficitur velit, ut ultrices nulla nibh eget enim. Nulla venenatis elit fermentum neque faucibus suscipit. Vestibulum facilisis augue vitae nunc sodales pulvinar. Pellentesque efficitur blandit tellus, et ultricies velit. Suspendisse aliquam facilisis quam, sit amet ornare risus scelerisque sed. Etiam ut tempor nisl.</p>
+    <h2 class="get-started-h2">GET STARTED</h2>
+
+    <!-- De tre olika kvadratiska bilderna med länkar -->
+    <div class="start-div equipment-div hvr">
+      <a href="equipment.html">
+        <img class="start-img equipment-img" src="img/floorballsticks.webp" alt="Floorball equipment">
+        <h3 class="start-h3">EQUIPMENT</h3>
+      </a>
+      <div class="attribution start-atr">Image Attribution:
+        <a href="https://www.flickr.com/photos/iff_floorball/">Flickr</a>,
+        <a href="https://floorball.sport/media/pictures/">IFF</a>
+      </div>
+    </div>
+
+    <div class="start-div referee-div hvr">
+      <a href="rules.html">
+        <img class="start-img referee-img" src="img/referee.webp" alt="Floorball referee">
+        <h3 class="start-h3">RULES</h3>
+      </a>
+      <div class="attribution start-atr">Image Attribution:
+        <a href="https://www.flickr.com/photos/iff_floorball/">Flickr</a>,
+        <a href="https://floorball.sport/media/pictures/">IFF</a>
+      </div>
+    </div>
+
+    <div class="start-div iff-div hvr">
+      <a href="https://floorball.sport/">
+        <img class="start-img iff-logo" src="img/IFF-Logo-2017.webp" alt="International Floorball Federation">
+        <h3 class="start-h3">LEARN MORE</h3>
+        <h5 class="iff-h5">Visit the International Floorball Federation's website</h5>
+      </a>
+      <div class="attribution iff-atr start-atr">Image Attribution:
+        <a href="https://www.flickr.com/photos/iff_floorball/">Flickr</a>,
+        <a href="https://floorball.sport/media/pictures/">IFF</a>
+      </div>
+    </div>
+
   </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <h4 class="question-h4">STILL GOT QUESTIONS?</h4>
+    <br>
+    <address class="contact"> <!-- Kontaktuppgifter i adress-element -->
+      <a href="mailto:henrik.soderman@student.tabyenskilda.se">Send us an email!&#x1F517;</a> <!-- Länk till mail; unicode länk-symbol -->
+      <br>
+      written by: Henrik Söderman
+    </address>
+  </footer>
+
+  <script src="script.js"></script> <!-- Länk till JavaScrip -->
+
   </body>
 </html>

@@ -1,25 +1,14 @@
-
-
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-.navlinks {
-  display: flex;
-  margin-right: 50px
-
-}
-.navlinks a {
-  margin: 0 10px;
-}
+/* Grid-positionering, endast på startsidan */
 
 .index-container {
   display: grid;
-  grid-auto-rows: minmax(65px, auto);
+  grid-auto-rows: minmax(4vw, auto);
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.slideshow-container {
+  grid-row: 1/6;
+  grid-column: 1/4;
 }
 
 h1 {
@@ -27,7 +16,42 @@ h1 {
   grid-column: 2/3;
 }
 
-.slogan {
-  grid-row: 6/7;
+.slogan-box {
+  grid-row: 3/4;
+  grid-column: 1/4;
+}
+
+.this-is-floorball-h2{
+  grid-row: 7/8;
   grid-column: 2/3;
+}
+
+.introduction {
+  grid-row: 9/10;
+  grid-column: 1/4;
+}
+
+.get-started-h2 {
+  grid-row: 11/12;
+  grid-column: 2/3;
+}
+
+.equipment-div {
+  grid-row: 13/14;
+  grid-column: 1/2;
+}
+
+.referee-div {
+  grid-row: 13/14;
+  grid-column: 2/3;
+}
+
+.iff-div {
+  grid-row: 13/14;
+  grid-column: 3/4;
+}
+
+footer {
+  grid-row: 15/16;
+  grid-column: 1/4;
 }
