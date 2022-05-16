@@ -23,7 +23,7 @@ h1 {
 
 .this-is-floorball-h2{
   grid-row: 7/8;
-  grid-column: 2/3;
+  grid-column: 1/4;
 }
 
 .introduction {
@@ -33,7 +33,7 @@ h1 {
 
 .get-started-h2 {
   grid-row: 11/12;
-  grid-column: 2/3;
+  grid-column: 1/4;
 }
 
 .equipment-div {
