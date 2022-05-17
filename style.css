@@ -5,7 +5,7 @@
   box-sizing: border-box
 }
 
-h1, h2, h3, h4, p, a, {
+h1, h2, h3, h4, p, a {
   z-index: 3;
   color: black;
 }
@@ -272,7 +272,7 @@ footer {
   align-items: center;
   margin: 5vw;
   display: flex;
-  flex-wrap: row nowrap;
+  flex-wrap: nowrap;
 }
 
 .eqp-item img {
