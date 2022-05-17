@@ -11,14 +11,22 @@ h1, h2, h3, h4, p, a, {
 }
 
 .logo {
-  width: 7vw;
-  padding: 1vw;
+  height: 6vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 1vw;
+}
+
+.logo-a {
+  height: 6vw;
 }
 
 /* Navigeringsmenyns container, en flexbox */
 .nav-container {
+  height: 8vw;
   display: flex;
   justify-content: space-between;
+  gap: 42vw;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -41,22 +49,26 @@ h1, h2, h3, h4, p, a, {
 .navlinks {
   list-style-type: none;
   display: flex;
-  margin-right: 50px
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+
 }
 
 .navlinks a {
-  margin: 0 10px;
+  margin: 0 1vw;
+  float: right;
 }
 
 /* Navigeringsmenyns enskilda länkar */
 .navlink {
+  align-self: center;
+  justify-content: flex-end;
   background-color: white;
   padding: 1.5vw 3vw;
   margin-left: 20%;
   border-radius: 3vw;
   font-size: 2vw;
-  position: relative;
-  left: 50px;
   box-shadow:
       0 1px 1px hsl(0deg 0% 0% / 0.075),
       0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -136,13 +148,15 @@ h2 {
 }
 
 /* De tre kvadratiska bilderna/knapparna under "GET STARTED"-rubriken */
-.start-img {
+.start-img, .iff {
   width: 100%;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   z-index: 4;
 
 }
+
+
 
 /* Div för innehållet som ligger ovanpå bilderna, exempelvis rubrikerna */
 .start-div {
@@ -153,10 +167,28 @@ h2 {
   background: #8A2387;  /* Bakgrundsfärg om gradient är inkompatibel med webbläsare */
   background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Bakgrund, gradient */
   background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+  background-size: 100% 30%;
   border-radius: 7px;
   box-shadow:
   rgba(0, 0, 0, 0.24) 0px 3px 8px;
  }
+
+ .iff {
+   background-color: white;
+   background-size: cover;
+   aspect-ratio: 1 / 1;
+ }
+
+.iff h2 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10vw;
+  color: #00C7BD;
+}
 
 /* Rubriker över bilder */
 .start-h3 {
