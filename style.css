@@ -10,17 +10,6 @@ h1, h2, h3, h4, p, a {
   color: black;
 }
 
-.logo {
-  height: 6vw;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 1vw;
-}
-
-.logo-a {
-  height: 6vw;
-}
-
 /* Navigeringsmenyns container, en flexbox */
 .nav-container {
   height: 8vw;
@@ -77,6 +66,19 @@ h1, h2, h3, h4, p, a {
       0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
+/* Loggans bild */
+.logo img {
+  height: 6vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 1vw;
+}
+
+/* länken (a-elementet) som bilden ligger i */
+.logo {
+  height: 6vw;
+}
+
 nav a {
   text-decoration: none;
   color: black;
@@ -93,12 +95,13 @@ h2 {
   font-size: 4vw;
 }
 
+/* Bilderna i bildspelet */
 .mySlides {
   display: none;
   width: 100%;
 }
 
-/* Slideshow container */
+/* Bildspelets container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -127,7 +130,7 @@ h2 {
   z-index: 1;
   background: rgba(255, 255, 255, 0.6);
   padding: 1vw;
-  border-radius: 1vw;
+  border-radius: 7px;
   max-width: 50%;
   margin: auto;
 }
@@ -153,10 +156,7 @@ h2 {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   z-index: 4;
-
 }
-
-
 
 /* Div för innehållet som ligger ovanpå bilderna, exempelvis rubrikerna */
 .start-div {
@@ -169,9 +169,9 @@ h2 {
   background: linear-gradient(to right, #F27121, #E94057, #8A2387);
   background-size: 100% 30%;
   border-radius: 7px;
-  box-shadow:
-  rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
  }
+
 
  .iff {
    background-color: white;
